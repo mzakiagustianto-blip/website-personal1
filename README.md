@@ -1,4 +1,4 @@
-[data.html](https://github.com/user-attachments/files/29803227/data.html)
+
 <!DOCTYPE html>
 <html lang="id">
 <head>

@@ -1,0 +1,1807 @@
+[data.html](https://github.com/user-attachments/files/29803227/data.html)
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Album Kenangan Kita ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ffe6eb,#fff);
+overflow-x:hidden;
+color:#333;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#ff4d6d;
+border-radius:20px;
+}
+
+/* Navbar */
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(15px);
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#ff2e63;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#444;
+font-weight:600;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#ff2e63;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:
+linear-gradient(rgba(255,182,193,.35),rgba(255,182,193,.35)),
+url("https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1600");
+background-size:cover;
+background-position:center;
+}
+
+.hero-content{
+background:rgba(255,255,255,.2);
+backdrop-filter:blur(15px);
+padding:40px;
+border-radius:20px;
+max-width:700px;
+}
+
+.hero h1{
+font-size:60px;
+color:white;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+color:white;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#ff2e63;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-size:18px;
+transition:.4s;
+}
+
+.btn:hover{
+background:#ff0f4f;
+transform:scale(1.05);
+}
+
+section{
+padding:100px 8%;
+}
+
+.judul{
+text-align:center;
+font-size:40px;
+color:#ff2e63;
+margin-bottom:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">❤️ lover sd memori</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#countdown">Countdown</a></li>
+
+<li><a href="#story">Cerita</a></li>
+
+<li><a href="#timeline">Timeline</a></li>
+
+<li><a href="#gallery">Album</a></li>
+
+<li><a href="#letter">Surat</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>Selamat Datang di website kami lover sd ❤️</h1>
+
+<p>
+selamat datang di website kami disini kami menampilkan segala cerita kami dan perjalanan kami
+</p>
+
+<a href="#countdown" class="btn">
+Mulai Perjalanan ❤️
+</a>
+
+</div>
+
+</section>
+<!-- =========================
+     COUNTDOWN
+========================== -->
+
+<section id="countdown">
+
+<h2 class="judul">⏳ Lama Kita Bersama</h2>
+
+<div class="countdown-box">
+
+<div class="time">
+<h1 id="days">0</h1>
+<p>Hari</p>
+</div>
+
+<div class="time">
+<h1 id="hours">0</h1>
+<p>Jam</p>
+</div>
+
+<div class="time">
+<h1 id="minutes">0</h1>
+<p>Menit</p>
+</div>
+
+<div class="time">
+<h1 id="seconds">0</h1>
+<p>Detik</p>
+</div>
+
+</div>
+
+<p class="count-text">
+❤️ Setiap detik bersamamu adalah kenangan yang sangat berharga.
+</p>
+
+</section>
+
+<!-- =========================
+     ANIMASI HATI
+========================== -->
+
+<div class="hearts">
+<span>❤️</span>
+<span>💕</span>
+<span>💖</span>
+<span>💗</span>
+<span>💝</span>
+<span>❤️</span>
+<span>💕</span>
+<span>💖</span>
+<span>💗</span>
+<span>💝</span>
+</div>
+
+<style>
+
+/* Countdown */
+
+.countdown-box{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:40px;
+}
+
+.time{
+width:150px;
+padding:25px;
+background:rgba(255,255,255,.35);
+backdrop-filter:blur(12px);
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.time h1{
+font-size:45px;
+color:#ff2e63;
+}
+
+.time p{
+font-size:18px;
+margin-top:10px;
+font-weight:600;
+}
+
+.count-text{
+text-align:center;
+margin-top:35px;
+font-size:20px;
+color:#666;
+}
+
+/* Animasi hati */
+
+.hearts{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+overflow:hidden;
+z-index:-1;
+}
+
+.hearts span{
+position:absolute;
+bottom:-50px;
+font-size:25px;
+animation:love 12s linear infinite;
+}
+
+.hearts span:nth-child(1){left:5%;animation-delay:0s;}
+.hearts span:nth-child(2){left:15%;animation-delay:2s;}
+.hearts span:nth-child(3){left:25%;animation-delay:4s;}
+.hearts span:nth-child(4){left:35%;animation-delay:1s;}
+.hearts span:nth-child(5){left:45%;animation-delay:6s;}
+.hearts span:nth-child(6){left:60%;animation-delay:3s;}
+.hearts span:nth-child(7){left:72%;animation-delay:5s;}
+.hearts span:nth-child(8){left:82%;animation-delay:2s;}
+.hearts span:nth-child(9){left:90%;animation-delay:7s;}
+.hearts span:nth-child(10){left:96%;animation-delay:4s;}
+
+@keyframes love{
+0%{
+transform:translateY(0) scale(1);
+opacity:1;
+}
+100%{
+transform:translateY(-110vh) scale(1.8);
+opacity:0;
+}
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.time{
+width:120px;
+}
+
+.time h1{
+font-size:35px;
+}
+
+}
+
+</style>
+<script>
+
+// =======================
+// TANGGAL JADIAN
+// =======================
+
+const startDate = new Date("2026-03-20 00:00:00");
+
+function updateCountdown(){
+
+const now = new Date();
+
+const diff = now - startDate;
+
+const days = Math.floor(diff / (1000*60*60*24));
+
+const hours = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+
+const minutes = Math.floor((diff % (1000*60*60)) / (1000*60));
+
+const seconds = Math.floor((diff % (1000*60)) / 1000);
+
+document.getElementById("days").innerHTML = days;
+document.getElementById("hours").innerHTML = hours;
+document.getElementById("minutes").innerHTML = minutes;
+document.getElementById("seconds").innerHTML = seconds;
+
+}
+
+updateCountdown();
+
+setInterval(updateCountdown,1000);
+
+// =======================
+// EFEK SCROLL NAVBAR
+// =======================
+
+window.addEventListener("scroll",function(){
+
+const header = document.querySelector("header");
+
+if(window.scrollY>50){
+
+header.style.background="rgba(255,255,255,.9)";
+header.style.boxShadow="0 5px 20px rgba(0,0,0,.15)";
+
+}else{
+
+header.style.background="rgba(255,255,255,.15)";
+header.style.boxShadow="none";
+
+}
+
+});
+
+// =======================
+// ANIMASI TOMBOL
+// =======================
+
+const btn=document.querySelector(".btn");
+
+btn.addEventListener("mouseenter",function(){
+
+btn.style.transform="scale(1.08)";
+
+});
+
+btn.addEventListener("mouseleave",function(){
+
+btn.style.transform="scale(1)";
+
+});
+
+</script>
+<!-- =========================
+     CERITA PERJALANAN KITA
+========================= -->
+
+<section id="story">
+
+<h2 class="judul">📖 Cerita Perjalanan Kita</h2>
+
+<div class="story-container">
+
+<div class="story-card">
+
+<img src="foto1.jpeg" alt="Awal Bertemu">
+
+<h3>💖 Awal Bertemu</h3>
+
+<p>
+Semua berawal dari pertemuan yang sederhana. Saat itu kita belum menyangka bahwa perkenalan singkat akan berubah menjadi kisah yang begitu indah. Dari obrolan kecil hingga saling mengenal lebih dekat, rasa nyaman mulai tumbuh di antara kita.
+</p>
+
+</div>
+
+<div class="story-card">
+
+<img src="foto2.jpeg" alt="Resmi Bersama">
+
+<h3>🥰 Resmi Bersama</h3>
+
+<p>
+Hari saat kita resmi bersama menjadi salah satu momen paling berharga. Sejak saat itu kita belajar saling mencintai, menghargai, memahami, dan mendukung satu sama lain dalam setiap keadaan.
+</p>
+
+</div>
+
+<div class="story-card">
+
+<img src="foto4.jpeg" alt="Kenangan">
+
+<h3>📸 Kenangan Indah</h3>
+
+<p>
+Banyak tempat telah kita kunjungi, banyak foto yang kita abadikan, dan banyak tawa yang kita bagikan. Semua itu menjadi kenangan yang tidak akan pernah tergantikan.
+</p>
+
+</div>
+
+<div class="story-card">
+
+<img src="foto3.jpeg" alt="Masa Depan">
+
+<h3>🌹 Harapan</h3>
+
+<p>
+Aku berharap perjalanan ini tidak berhenti sampai di sini. Semoga kita terus bersama, melewati suka dan duka, hingga semua mimpi yang kita bangun bisa menjadi kenyataan.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.story-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.story-card{
+background:#ffffff;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.4s;
+}
+
+.story-card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(255,46,99,.3);
+}
+
+.story-card img{
+width:100%;
+height:230px;
+object-fit:cover;
+}
+
+.story-card h3{
+padding:20px 20px 10px;
+color:#ff2e63;
+}
+
+.story-card p{
+padding:0 20px 25px;
+line-height:1.8;
+color:#555;
+}
+
+</style>
+<!-- =========================
+     TIMELINE HUBUNGAN
+========================= -->
+
+<section id="timeline">
+
+<h2 class="judul">💞 Timeline Perjalanan Kita</h2>
+
+<div class="timeline">
+
+<div class="timeline-item left">
+<div class="content">
+<h3>💖 Pertama Bertemu</h3>
+<h4> 20 maret 2026</h4>
+<p>
+Hari pertama kita bertemu. Awalnya hanya saling mengenal, tetapi dari pertemuan sederhana itu tumbuh cerita yang tidak pernah kita bayangkan sebelumnya.
+</p>
+</div>
+</div>
+
+<div class="timeline-item right">
+<div class="content">
+<h3>❤️ Resmi Berpacaran</h3>
+<h4> 30 maret 2026</h4>
+<p>
+Hari spesial ketika kita memutuskan untuk menjalani hubungan bersama. Sejak saat itu kita mulai membuat banyak kenangan indah.
+</p>
+</div>
+</div>
+
+<div class="timeline-item left">
+<div class="content">
+<h3>📸 Kencan Pertama</h3>
+<h4>15 april 2026</h4>
+<p>
+Kita pergi jalan bersama, tertawa, berbagi cerita, dan mengabadikan momen dengan banyak foto yang sampai sekarang masih kita simpan.
+</p>
+</div>
+</div>
+
+<div class="timeline-item right">
+<div class="content">
+<h3>🎂 Ulang Tahun Bersama</h3>
+<h4>10 oktober 2026</h4>
+<p>
+Merayakan ulang tahun bersama menjadi salah satu momen paling berkesan karena penuh kejutan dan kebahagiaan.
+</p>
+</div>
+</div>
+
+<div class="timeline-item left">
+<div class="content">
+<h3>🌹 Hari Ini</h3>
+<h4>Sekarang</h4>
+<p>
+Kita masih terus bersama, belajar saling memahami, saling mendukung, dan terus menulis kisah cinta yang indah.
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.timeline{
+position:relative;
+max-width:1000px;
+margin:auto;
+}
+
+.timeline::after{
+content:'';
+position:absolute;
+width:4px;
+background:#ff2e63;
+top:0;
+bottom:0;
+left:50%;
+margin-left:-2px;
+}
+
+.timeline-item{
+padding:20px 40px;
+position:relative;
+width:50%;
+}
+
+.timeline-item.left{
+left:0;
+}
+
+.timeline-item.right{
+left:50%;
+}
+
+.content{
+background:#fff;
+padding:20px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.4s;
+}
+
+.content:hover{
+transform:scale(1.03);
+box-shadow:0 15px 30px rgba(255,46,99,.3);
+}
+
+.timeline-item::after{
+content:'❤';
+position:absolute;
+width:35px;
+height:35px;
+right:-18px;
+background:#ff2e63;
+color:#fff;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+top:25px;
+font-size:18px;
+}
+
+.timeline-item.right::after{
+left:-17px;
+}
+
+.content h3{
+color:#ff2e63;
+margin-bottom:8px;
+}
+
+.content h4{
+color:#888;
+margin-bottom:10px;
+}
+
+.content p{
+line-height:1.8;
+color:#555;
+}
+
+@media(max-width:768px){
+
+.timeline::after{
+left:20px;
+}
+
+.timeline-item{
+width:100%;
+padding-left:60px;
+padding-right:20px;
+}
+
+.timeline-item.right{
+left:0;
+}
+
+.timeline-item.left::after,
+.timeline-item.right::after{
+left:2px;
+}
+
+}
+
+</style>
+<!-- =========================
+     ALBUM FOTO
+========================= -->
+
+<section id="gallery">
+
+<h2 class="judul">📸 Album Kenangan Kita</h2>
+
+<p class="gallery-text">
+Setiap foto menyimpan cerita, setiap senyuman mengingatkan bahwa
+kebahagiaan selalu lebih indah saat bersamamu. ❤️
+</p>
+
+<div class="gallery-container">
+
+<div class="photo-card">
+<img src="foto1.jpeg" alt="Foto 1"
+onclick="openLightbox(0)">
+<div class="photo-info">
+<h3>Kencan Pertama</h3>
+<p>Hari yang tidak akan pernah aku lupakan.</p>
+</div>
+</div>
+
+<div class="photo-card">
+<img src="fotoo1.jpeg" alt="Foto 2"
+onclick="openLightbox(0)">
+<div class="photo-info">
+<h3>Selfie Bersama</h3>
+<p>Senyum kita selalu jadi kenangan terbaik.</p>
+</div>
+</div>
+
+<div class="photo-card">
+<img src="fotoo2.jpeg" alt="Foto 3"
+onclick="openLightbox(0)">
+<div class="photo-info">
+<h3>Liburan</h3>
+<p>Menghabiskan waktu bersama adalah hadiah terindah.</p>
+</div>
+</div>
+
+<div class="photo-card">
+<img src="foto4.jpg" alt="Foto 4"
+onclick="openLightbox(0)">
+<div class="photo-info">
+<h3>Hari Spesial</h3>
+<p>Setiap momen bersamamu selalu terasa istimewa.</p>
+</div>
+</div>
+
+<div class="photo-card">
+<img src="foto5.jpg" alt="Foto 5"
+onclick="openLightbox(0)">
+<div class="photo-info">
+<h3>Makan Bersama</h3>
+<p>Hal sederhana yang selalu membuat bahagia.</p>
+</div>
+</div>
+
+<div class="photo-card">
+<img src="foto6.jpg" alt="Foto 6"
+onclick="openLightbox(0)">
+<div class="photo-info">
+<h3>Kenangan Indah</h3>
+<p>Semoga album ini terus bertambah setiap tahun.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.gallery-text{
+text-align:center;
+max-width:700px;
+margin:auto;
+margin-bottom:40px;
+font-size:18px;
+color:#666;
+line-height:1.7;
+}
+
+.gallery-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.photo-card{
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+transition:.4s;
+cursor:pointer;
+}
+
+.photo-card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(255,46,99,.3);
+}
+
+.photo-card img{
+width:100%;
+height:260px;
+object-fit:cover;
+transition:.5s;
+}
+
+.photo-card:hover img{
+transform:scale(1.1);
+}
+
+.photo-info{
+padding:20px;
+}
+
+.photo-info h3{
+color:#ff2e63;
+margin-bottom:10px;
+}
+
+.photo-info p{
+color:#666;
+line-height:1.7;
+}
+
+@media(max-width:768px){
+
+.gallery-container{
+grid-template-columns:1fr;
+}
+
+.photo-card img{
+height:230px;
+}
+
+}
+
+</style>
+<!-- =========================
+        LIGHTBOX
+========================== -->
+
+<div id="lightbox" class="lightbox">
+
+<span class="close" onclick="closeLightbox()">&times;</span>
+
+<img id="lightbox-img" src="" alt="Foto">
+
+<a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+
+<a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+<div class="caption">
+<h2 id="caption-title"></h2>
+<p id="caption-text"></p>
+</div>
+
+</div>
+
+<style>
+
+/* ==========================
+      LIGHTBOX
+========================== */
+
+.lightbox{
+display:none;
+position:fixed;
+z-index:9999;
+left:0;
+top:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.92);
+justify-content:center;
+align-items:center;
+flex-direction:column;
+animation:fadeIn .4s;
+}
+
+.lightbox img{
+max-width:90%;
+max-height:75vh;
+border-radius:15px;
+box-shadow:0 0 25px rgba(255,255,255,.25);
+transition:.4s;
+}
+
+.close{
+position:absolute;
+top:20px;
+right:35px;
+font-size:45px;
+color:white;
+cursor:pointer;
+transition:.3s;
+}
+
+.close:hover{
+color:#ff2e63;
+}
+
+.prev,
+.next{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+font-size:55px;
+color:white;
+padding:15px;
+cursor:pointer;
+user-select:none;
+transition:.3s;
+}
+
+.prev{
+left:20px;
+}
+
+.next{
+right:20px;
+}
+
+.prev:hover,
+.next:hover{
+color:#ff2e63;
+}
+
+.caption{
+margin-top:20px;
+text-align:center;
+color:white;
+padding:0 20px;
+}
+
+.caption h2{
+margin-bottom:10px;
+color:#ff4d6d;
+}
+
+.caption p{
+font-size:18px;
+}
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+@media(max-width:768px){
+
+.lightbox img{
+max-width:95%;
+}
+
+.prev,
+.next{
+font-size:40px;
+}
+
+.close{
+font-size: 38px;
+}
+}
+</style>
+<script>
+
+// ===========================
+// DATA FOTO
+// ===========================
+
+const photos = [
+{
+img:"foto1.jpeg",
+title:"Kencan Pertama ❤️",
+text:"Awal dari banyak kenangan indah yang kita buat bersama."
+},
+{
+img:"fotoo1.jpeg",
+title:"Selfie Bersama 🥰",
+text:"Setiap senyum yang kita abadikan selalu memiliki cerita."
+},
+{
+img:"fotoo2.jpeg",
+title:"Liburan 🌴",
+text:"Perjalanan sederhana yang menjadi kenangan luar biasa."
+},
+{
+img:"foto.jpg",
+title:"Hari Spesial 🎂",
+text:"Momen yang akan selalu tersimpan di hati."
+},
+{
+img:"foto.jpg",
+title:"Makan Bersama 🍜",
+text:"Kebahagiaan tidak harus mewah, cukup bersamamu."
+},
+{
+img:"foto.jpg",
+title:"Forever ❤️",
+text:"Semoga semua cerita kita terus berlanjut selamanya."
+}
+];
+
+let currentIndex = 0;
+let autoSlide;
+
+// ===========================
+// BUKA LIGHTBOX
+// ===========================
+
+function openLightbox(index){
+
+currentIndex = index;
+
+document.getElementById("lightbox").style.display="flex";
+
+showPhoto();
+
+startSlide();
+
+}
+
+// ===========================
+// TAMPILKAN FOTO
+// ===========================
+
+function showPhoto(){
+
+document.getElementById("lightbox-img").src =
+photos[currentIndex].img;
+
+document.getElementById("caption-title").innerHTML =
+photos[currentIndex].title;
+
+document.getElementById("caption-text").innerHTML =
+photos[currentIndex].text;
+
+}
+
+// ===========================
+// NEXT / PREVIOUS
+// ===========================
+
+function changeSlide(step){
+
+currentIndex += step;
+
+if(currentIndex >= photos.length){
+
+currentIndex = 0;
+
+}
+
+if(currentIndex < 0){
+
+currentIndex = photos.length - 1;
+
+}
+
+showPhoto();
+
+}
+
+// ===========================
+// TUTUP
+// ===========================
+
+function closeLightbox(){
+
+document.getElementById("lightbox").style.display="none";
+
+clearInterval(autoSlide);
+
+}
+
+// ===========================
+// AUTO SLIDE
+// ===========================
+
+function startSlide(){
+
+clearInterval(autoSlide);
+
+autoSlide = setInterval(function(){
+
+changeSlide(1);
+
+},3000);
+
+}
+
+// ===========================
+// KEYBOARD
+// ===========================
+
+document.addEventListener("keydown",function(e){
+
+if(document.getElementById("lightbox").style.display=="flex"){
+
+if(e.key==="ArrowRight"){
+
+changeSlide(1);
+
+}
+
+if(e.key==="ArrowLeft"){
+
+changeSlide(-1);
+
+}
+
+if(e.key==="Escape"){
+
+closeLightbox();
+
+}
+
+}
+
+});
+
+// ===========================
+// KLIK AREA GELAP UNTUK TUTUP
+// ===========================
+
+document.getElementById("lightbox").addEventListener("click",function(e){
+
+if(e.target===this){
+
+closeLightbox();
+
+}
+
+});
+
+</script>
+<!-- =========================
+        MUSIK ROMANTIS
+========================== -->
+
+<audio id="bgMusic" loop>
+    <!-- Ganti dengan file musik milikmu -->
+    <source src="virgoun.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung audio.
+</audio>
+
+<button id="musicBtn" onclick="toggleMusic()">
+    🎵 Putar Musik
+</button>
+
+<style>
+
+/* Tombol Musik */
+
+#musicBtn{
+position:fixed;
+bottom:25px;
+right:25px;
+padding:14px 22px;
+border:none;
+border-radius:50px;
+background:#ff2e63;
+color:white;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+box-shadow:0 8px 20px rgba(0,0,0,.2);
+transition:.3s;
+z-index:999;
+}
+
+#musicBtn:hover{
+transform:scale(1.08);
+background:#ff4d7a;
+}
+
+</style>
+
+<script>
+
+// ===========================
+// PLAY / PAUSE MUSIK
+// ===========================
+
+const music = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+let isPlaying = false;
+
+function toggleMusic(){
+
+if(isPlaying){
+
+music.pause();
+
+musicBtn.innerHTML="🎵 Putar Musik";
+
+}else{
+
+music.play();
+
+musicBtn.innerHTML="⏸ Pause Musik";
+
+}
+
+isPlaying=!isPlaying;
+
+}
+
+</script>
+
+<!-- =========================
+        SURAT CINTA
+========================== -->
+
+<section id="letter">
+<!-- =========================
+      TYPING EFFECT
+========================== -->
+
+<div class="typing-box">
+
+<h2>❤️ Pesan Spesial ❤️</h2>
+
+<p id="typingText"></p>
+
+</div>
+<!-- =========================
+      I LOVE YOU
+========================== -->
+
+<section id="love">
+
+<h2 class="judul">❤️ Satu Tombol Untukmu ❤️</h2>
+
+<div class="love-box">
+
+<button id="loveBtn" onclick="loveExplosion()">
+❤️ I LOVE YOU ❤️
+</button>
+
+<p id="loveMessage"></p>
+
+</div>
+
+</section>
+
+<div id="heartContainer"></div><h2 class="judul">💌 Surat Untukmu</h2>
+
+<div class="envelope-area">
+
+<div class="envelope" onclick="openLetter()">
+
+<div class="cover"></div>
+
+<div class="letter" id="letterCard">
+
+<h2>Untuk Kamu ❤️</h2>
+
+<p>
+Terima kasih karena sudah hadir dalam hidupku.
+
+Terima kasih untuk semua tawa, perhatian, kesabaran,
+dan semua kenangan yang sudah kita lewati bersama.
+
+Mungkin kita pernah berbeda pendapat,
+pernah saling kecewa,
+tetapi aku percaya semua itu membuat hubungan kita semakin kuat.
+
+Aku berharap kita bisa terus berjalan bersama,
+membuat cerita baru,
+menggapai mimpi,
+dan tetap saling mencintai sampai kapan pun.
+
+❤️ I Love You ❤️
+</p>
+
+</div>
+
+</div>
+
+<p class="click-text">
+Klik amplop untuk membuka surat.
+</p>
+
+</div>
+
+</section>
+
+<style>
+
+/* ==========================
+      SURAT CINTA
+========================== */
+
+.envelope-area{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-top:40px;
+}
+
+.envelope{
+position:relative;
+width:320px;
+height:220px;
+background:#ff4d6d;
+border-radius:10px;
+cursor:pointer;
+overflow:hidden;
+box-shadow:0 15px 30px rgba(0,0,0,.2);
+transition:.4s;
+}
+
+.envelope:hover{
+transform:scale(1.05);
+}
+
+.cover{
+position:absolute;
+width:100%;
+height:100%;
+background:#ff2e63;
+clip-path:polygon(0 0,100% 0,50% 55%);
+z-index:3;
+transition:.8s;
+}
+
+.letter{
+position:absolute;
+left:10%;
+top:95%;
+width:80%;
+background:white;
+padding:20px;
+border-radius:10px;
+transition:.8s;
+z-index:2;
+box-shadow:0 8px 15px rgba(0,0,0,.2);
+}
+
+.letter h2{
+color:#ff2e63;
+margin-bottom:10px;
+text-align:center;
+}
+
+.letter p{
+font-size:15px;
+line-height:1.7;
+text-align: justify;
+color: #555;
+}
+.envelope.open .cover{
+    transform: rotateX(180deg);
+    transform-origin: top;
+}
+.envelope.open .letter{
+    top: 10%
+}
+.click-text{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #777;
+}
+@media(max-width:768px){
+    .envelope{
+        width: 280px;
+        height: 200px;
+    }
+}
+
+/* ==========================
+      TYPING EFFECT
+========================== */
+
+.typing-box{
+margin:60px auto;
+max-width:700px;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.typing-box h2{
+color:#ff2e63;
+margin-bottom:20px;
+}
+
+#typingText{
+font-size:20px;
+line-height:1.8;
+color:#555;
+min-height:120px;
+font-weight:500;
+}
+
+.cursor{
+display:inline-block;
+color:#ff2e63;
+font-weight:bold;
+animation:blink .8s infinite;
+}
+
+@keyframes blink{
+
+0%{
+opacity:1;
+}
+
+50%{
+opacity:0;
+}
+
+100%{
+opacity:1;
+}
+
+}
+</style>
+<script>
+
+    // ===========================
+    // TYPING EFFECT
+    // ===========================
+    
+    const message =
+    "Terima kasih karena selalu ada untukku. Bersamamu aku belajar arti kesabaran, kepercayaan, dan cinta yang tulus. Semoga perjalanan kita tidak pernah berakhir dan kita terus menciptakan kenangan indah bersama. ❤️";
+    
+    let i = 0;
+    
+    function typingEffect(){
+    
+    if(i < message.length){
+    
+    document.getElementById("typingText").innerHTML += message.charAt(i);
+    
+    i++;
+    
+    setTimeout(typingEffect,50);
+    
+    }else{
+    
+    document.getElementById("typingText").innerHTML +=
+    '<span class="cursor">|</span>';
+    
+    }
+    
+    }
+    
+    window.onload = function(){
+    
+    typingEffect();
+    
+    };
+    
+    </script>
+    
+<style>
+/* ==========================
+      LOVE BUTTON
+========================== */
+
+.love-box{
+text-align:center;
+margin-top:40px;
+}
+
+#loveBtn{
+
+padding:18px 40px;
+
+font-size:22px;
+
+font-weight:bold;
+
+background:#ff2e63;
+
+color:white;
+
+border:none;
+
+border-radius:50px;
+
+cursor:pointer;
+
+transition:.3s;
+
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+#loveBtn:hover{
+
+transform:scale(1.08);
+
+background:#ff4d6d;
+
+}
+
+#loveMessage{
+
+margin-top:25px;
+
+font-size:24px;
+
+font-weight:bold;
+
+color:#ff2e63;
+
+}
+
+#heartContainer{
+
+position:fixed;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+overflow:hidden;
+
+z-index:9999;
+
+}
+
+.flying-heart{
+
+position:absolute;
+
+font-size:30px;
+
+animation:flyHeart 3s linear forwards;
+
+}
+
+@keyframes flyHeart{
+
+0%{
+
+transform:translateY(0) scale(1);
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-800px) rotate(720deg) scale(2);
+
+opacity:0;
+
+}
+
+}
+</style>
+<script>
+
+// ===========================
+// LOVE EXPLOSION
+// ===========================
+
+function loveExplosion(){
+
+document.getElementById("loveMessage").innerHTML =
+"❤️ Aku Sayang Kamu Selamanya ❤️";
+
+const container =
+document.getElementById("heartContainer");
+
+for(let i=0;i<60;i++){
+
+const heart =
+document.createElement("div");
+
+heart.className="flying-heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left =
+Math.random()*100+"%";
+
+heart.style.top =
+(Math.random()*100+20)+"%";
+
+heart.style.fontSize =
+(Math.random()*30+20)+"px";
+
+heart.style.animationDuration =
+(Math.random()*2+2)+"s";
+
+container.appendChild(heart);
+
+setTimeout(()=>{
+
+heart.remove();
+
+},3000);
+
+}
+
+}
+
+</script>
+<!-- =========================
+        FOOTER
+========================== -->
+
+<footer class="footer">
+
+<h2>❤️ Terima Kasih ❤️</h2>
+
+<p>
+Terima kasih sudah menjadi bagian terindah dalam hidupku.
+Semoga semua kenangan di website ini menjadi saksi perjalanan cinta kita,
+dan semoga kisah kita terus berlanjut selamanya.
+</p>
+
+<p class="copyright">
+© 2026 - Dibuat dengan ❤️ khusus untukmu.
+</p>
+
+</footer>
+
+<!-- Loading Screen -->
+
+<div id="loading">
+
+<h1>❤️ Memuat Kenangan... ❤️</h1>
+
+</div>
+<style>
+/* ==========================
+        FOOTER
+========================== */
+
+.footer{
+
+background:#ff2e63;
+
+color:white;
+
+text-align:center;
+
+padding:70px 20px;
+
+margin-top:80px;
+
+}
+
+.footer h2{
+
+font-size:35px;
+
+margin-bottom:20px;
+
+}
+
+.footer p{
+
+font-size:18px;
+
+line-height:1.8;
+
+max-width:700px;
+
+margin:auto;
+
+}
+
+.copyright{
+
+margin-top:30px;
+
+opacity:.8;
+
+}
+
+/* Loading */
+
+#loading{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+font-size:25px;
+
+color:#ff2e63;
+
+transition:1s;
+
+}
+
+/* Animasi Scroll */
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(80px);
+
+transition:1s;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+</style>
+<script>
+
+// ===========================
+// LOADING SCREEN
+// ===========================
+
+window.addEventListener("load",function(){
+
+setTimeout(function(){
+
+document.getElementById("loading").style.opacity="0";
+
+setTimeout(function(){
+
+document.getElementById("loading").style.display="none";
+
+},1000);
+
+},1500);
+
+});
+
+// ===========================
+// SCROLL ANIMATION
+// ===========================
+
+const elements=document.querySelectorAll("section");
+
+function reveal(){
+
+elements.forEach(function(el){
+
+const top=el.getBoundingClientRect().top;
+
+if(top<window.innerHeight-100){
+
+el.classList.add("show");
+
+}else{
+
+el.classList.remove("show");
+
+}
+
+});
+
+}
+
+elements.forEach(function(el){
+
+el.classList.add("hidden");
+
+});
+
+window.addEventListener("scroll",reveal);
+
+reveal();
+
+</script>
+</body>
+</html>
